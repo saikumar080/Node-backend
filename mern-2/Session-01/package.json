@@ -1,0 +1,24 @@
+{
+  "name": "session-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev:index": "nodemon index.js",
+    "dev:Activity-1":"nodemon Activity-1.js",
+    "dev:Activity-2":"nodemon Activity-2.js",
+    "dev:Activity-3":"nodemon Activity-3.js",
+    "date":"node date.js",
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
